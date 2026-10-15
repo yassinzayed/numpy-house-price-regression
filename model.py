@@ -90,8 +90,10 @@ def make_shuffled_indices(n_samples, seed):
 # Step 11 - partition_indices (not yet solved)
 # TODO: implement
 
-# Step 12 - subset_xy (not yet solved)
-# TODO: implement
+# Step 12 - subset_xy
+def subset_xy(X, y, indices):
+    # TODO: Select the rows of X and y at the given indices.
+    return (X[indices], y[indices])
 
 # Step 13 - ols_fit (not yet solved)
 # TODO: implement
