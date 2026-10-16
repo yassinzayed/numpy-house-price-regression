@@ -101,8 +101,11 @@ def subset_xy(X, y, indices):
 # Step 14 - ols_predict (not yet solved)
 # TODO: implement
 
-# Step 15 - mean_absolute_error (not yet solved)
-# TODO: implement
+# Step 15 - mean_absolute_error
+def mean_absolute_error(y_true, y_pred):
+    # TODO: return the mean absolute error between targets and predictions
+    mae = np.mean(np.abs(y_true-y_pred))
+    return mae
 
 # Step 16 - root_mean_squared_error (not yet solved)
 # TODO: implement
